@@ -6,6 +6,8 @@ namespace ArdalisRating
     {
         static void Main(string[] args)
         {
+            //Lisseth Tatiana Quilindo Patiño (506222011)
+            //Daniel Esteban Torres Triana (506222711)
             Console.WriteLine("Ardalis Insurance Rating System Starting...");
 
             var engine = new RatingEngine();

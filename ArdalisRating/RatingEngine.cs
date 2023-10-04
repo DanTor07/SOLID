@@ -31,6 +31,10 @@ namespace ArdalisRating
                     Rating = RateLifePolicy.CalculateRating(policy);
                     break;
 
+                case PolicyType.Flood:
+                    Rating = RateFloodPolicy.CalculateRating(policy);
+                    break;
+
                 default:
                     Console.WriteLine("Unknown policy type");
                     break;
